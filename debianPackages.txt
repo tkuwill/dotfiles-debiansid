@@ -1086,7 +1086,6 @@ liburi-perl					install
 liburiparser1:amd64				install
 libusb-1.0-0:amd64				install
 libusbmuxd-2.0-7:amd64				install
-libutempter0:amd64				install
 libutf8proc3:amd64				install
 libuuid1:amd64					install
 libuv1t64:amd64					install
@@ -1546,12 +1545,8 @@ xfburn						install
 xfce4-clipman					deinstall
 xfce4-helpers					deinstall
 xfce4-notes					deinstall
-xfce4-power-manager				install
-xfce4-power-manager-data			install
-xfce4-power-manager-plugins			install
+xfce4-power-manager				deinstall
 xfce4-settings					deinstall
-xfce4-taskmanager				install
-xfce4-terminal					install
 xfconf						install
 xiccd						deinstall
 xkb-data					install
