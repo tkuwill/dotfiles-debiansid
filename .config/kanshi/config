@@ -1,0 +1,10 @@
+# 💻 情境一：單純用筆電（拔掉 HDMI 時）
+profile {
+    output "eDP-1" enable mode 1366x768@60Hz position 0,0
+}
+
+# 📺 情境二：客廳大電視模式（插上 HDMI 時，自動關閉筆電螢幕，專心輸出電視）
+profile {
+    output "eDP-1" disable
+    output "HDMI-A-2" enable mode 1920x1080@60Hz position 0,0
+}

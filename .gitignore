@@ -1,0 +1,5 @@
+# 忽略任何可能帶有密鑰的檔案
+.secrets
+.ssh/
+*id_ed25519*
+.zsh_history

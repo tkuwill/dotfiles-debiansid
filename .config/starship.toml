@@ -1,0 +1,4 @@
+[directory]
+truncation_length = 0      # 設為 0 代表完全不截斷路徑
+truncate_to_repo = false   # 即使進入 Git 專案，也堅持顯示完整路徑
+style = "bold cyan"        # 保持原本漂亮的青色粗體（可依喜好調整）
