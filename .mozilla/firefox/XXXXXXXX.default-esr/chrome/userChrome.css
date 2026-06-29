@@ -1,0 +1,49 @@
+/* 1. 放大網址列輸入框的文字與高度 */
+#urlbar-input {
+    font-size: 30pt !important;
+}
+
+/* 2. 放大網址列整條容器的高度 */
+#urlbar-container {
+    height: 58px !important;
+}
+
+/* 3. 如果您也用獨立的搜尋列，一併放大 */
+#searchbar {
+    font-size: 30pt !important;
+    height: 58px !important;
+}
+
+/* 4. 放大書籤列的文字大小與圖司大小 */
+#PersonalToolbar .bookmark-item {
+    font-size: 26pt !important;
+}
+
+/* 5. 增加書籤之間的左右間距，避免在電視上黏成一團 */
+#PersonalToolbar .bookmark-item {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+/* 6. 如果您有把書籤放到資料夾裡，一併放大下拉選單的字體 */
+.bookmark-item[type="menu"] menupopup menuitem,
+.bookmark-item[type="menu"] menupopup menu {
+    font-size: 26pt !important;
+}
+
+/* 7. 讓縮圖與文字完全填滿新撐開的超大空間 */
+.tab-preview-image {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+}
+
+.tab-preview-title {
+    font-size: 18pt !important; /* 標題也一並放大，遠看更清晰 */
+    font-weight: bold !important;
+}
+
+.tab-preview-uri {
+    font-size: 14pt !important;
+}
+
