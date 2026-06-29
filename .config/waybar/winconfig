@@ -39,7 +39,7 @@
         "tooltip": "Clipboard"
     },
     "custom/os_button": {
-        "format": "",
+        "format": "",
         "on-click": "fuzzel",
         "on-click-right": "/home/will/.config/fuzzel/scripts/powermenu.sh",
         "tooltip": false

@@ -64,20 +64,11 @@
   <item label="Terminal">
     <action name="Execute" command="foot -c ~/.config/foot/labfoot.ini" />
   </item>
-  <item label="Calender">
-    <action name="Execute" command="~/.config/fuzzel/scripts/calendar.sh" />
-  </item>
   <item label="Player">
     <action name="Execute" command="~/.config/fuzzel/scripts/player.sh" />
   </item>
-  <item label="Notification-center">
-    <action name="Execute" command="~/.config/fuzzel/scripts/donotdisturb.sh" />
-  </item>
   <item label="PowerMenu">
     <action name="Execute" command="~/.config/fuzzel/scripts/powermenu.sh" />
-  </item>
-  <item label="SysInfo">
-    <action name="Execute" command="~/.config/fuzzel/scripts/sys.sh" />
   </item>
   <item label="Reconfigure">
     <action name="Reconfigure" />
