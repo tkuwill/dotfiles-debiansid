@@ -1,29 +1,31 @@
-font=Sans 12                        
-        background-color=#ffffffFC
-	text-color=#1e1e2e
-	border-size=2
-	border-color=#a6adc8
-	border-radius=8
-	progress-color=over #e6e6e6
-	icon-path=/usr/share/icons/Adwaita:/usr/share/icons/hicolor:/usr/share/pixmaps
-	anchor=top-right                    
-	margin=20                           
-	max-visible=3                       
-	default-timeout=5000                
+font=Sans 20                        
+background-color=#ffffffFC
+text-color=#1e1e2e
+border-size=4
+border-color=#a6adc8
+border-radius=15
+progress-color=over #e6e6e6
+icon-path=/usr/share/icons/Adwaita:/usr/share/icons/hicolor:/usr/share/pixmaps
+anchor=top-right                    
+margin=30                           
+max-visible=3                       
+default-timeout=5000                
+layer=overlay
+width=600
 
-	[urgency=low]
-	border-color=#a6adc8
-	default-timeout=3000
+[urgency=low]
+border-color=#a6adc8
+default-timeout=3000
 
-	[urgency=high]
-	border-color=#f38ba8                
-	text-color=#f38ba8
-	default-timeout=0                   
+[urgency=high]
+border-color=#f38ba8                
+text-color=#f38ba8
+default-timeout=0                   
 
 # 🎯 專屬音量條通知面板（根據 image.png 最佳化長度與位置）
 [category=volume]
 # 調整為剛好完美的寬度，讓 50 格音量條緊湊不折行
-width=815
+width=1350
 
 # 🎯 強制讓音量通知單獨在螢幕正上方置中
 anchor=top-center
